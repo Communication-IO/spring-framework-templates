@@ -11,6 +11,8 @@
 
 	<modules>
 		<module>logging-log4j2/pom.xml</module>
+		<!--<module>junit5-mockito/pom.xml</module>-->
+		<module>logging-slf4j/pom.xml</module>
 		<module>springboot-cloud-sleuth-zipkin/pom.xml</module>
 		<module>springboot-groovy-jpa-crud/pom.xml</module>
 		<module>springboot-oauth2-github/pom.xml</module>
