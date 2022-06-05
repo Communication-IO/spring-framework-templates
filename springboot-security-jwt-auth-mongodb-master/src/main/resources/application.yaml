@@ -1,0 +1,10 @@
+commio:
+    app:
+        jwtExpirationMs: 64000000
+        jwtSecret: H00v3r!sAnAw3s0m3L!ttl3D0gg!3
+spring:
+    data:
+        mongodb:
+            database: commio
+            host: localhost
+            port: 27017

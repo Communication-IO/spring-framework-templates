@@ -1,0 +1,22 @@
+<project 
+	xmlns="http://maven.apache.org/POM/4.0.0" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ahlquist.commio</groupId>
+	<artifactId>spring-zipkin-master-pom</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springboot-cloud-zipkin</name>
+	<url>www.communication.io</url>
+
+	<description>pom file contains zipkin sub-modules</description>
+
+	<modules>
+		<module>spring-cloud-account/pom.xml</module>
+		<module>spring-cloud-cart/pom.xml</module>
+		<module>spring-cloud-order/pom.xml</module>
+		<module>spring-cloud-product/pom.xml</module>
+	</modules>
+
+</project>

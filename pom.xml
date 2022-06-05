@@ -1,0 +1,75 @@
+<project 
+	xmlns="http://maven.apache.org/POM/4.0.0" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ahlquist.commio</groupId>
+	<artifactId>master-pom</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>master pom file contains modules</description>
+
+	<modules>
+		<module>logging-log4j2/pom.xml</module>
+		<module>springboot-cloud-sleuth-zipkin/pom.xml</module>
+		<module>springboot-groovy-jpa-crud/pom.xml</module>
+		<module>springboot-oauth2-github/pom.xml</module>
+                <module>springboot-oauth2-google/pom.xml</module>
+		<module>springboot-oauth2-okta/pom.xml</module>
+		<module>springboot-quartz-joblistener/pom.xml</module>
+		<module>springboot-webflux-filedownload/pom.xml</module>
+		<module>springboot-webflux-fileupload-download/pom.xml</module>
+ 		<module>springboot-webflux-video-streaming/pom.xml</module>  	
+		<module>springboot-webflux-reactivemonogo/pom.xml</module>
+		<module>springboot-webflux-simplecrud/pom.xml</module>
+		<module>springboot-custom-exception/pom.xml</module>
+		<module>springboot-data-jdbc-crud/pom.xml</module>
+		<module>springboot-datable-pagination/pom.xml</module>
+		<module>springboot-embeddedserver-undertow/pom.xml</module>
+		<module>springboot-export-csv/pom.xml</module>
+		<module>springboot-export-csv-apache-commons/pom.xml</module>
+		<module>springboot-export-pdf/pom.xml</module>
+		<module>springboot-fileupload-filedownload/pom.xml</module>
+		<module>springboot-freemaker/pom.xml</module>
+		<module>springboot-freemarker-jpa-crud/pom.xml</module>
+		<module>springboot-graphql-crud/pom.xml</module>
+		<module>springboot-interceptor/pom.xml</module>
+		<module>springboot-java-record/pom.xml</module>
+		<module>springboot-jetty-embeddedserver/pom.xml</module>
+		<module>springboot-jpa-h2db/pom.xml</module>
+		<module>springboot-jpa-hibernate-many-to-many-mapping/pom.xml</module>
+		<module>springboot-jpa-hibernate-one-to-many-mapping/pom.xml</module>
+		<module>springboot-jpa-hibernate-one-to-one-mapping/pom.xml</module>
+		<module>springboot-jpa-hikaricp/pom.xml</module>
+		<module>springboot-jpa-tomcatcp/pom.xml</module>
+		<module>springboot-json-properties/pom.xml</module>
+		<module>springboot-keycloak/pom.xml</module>
+		<module>springboot-microsoft-word/pom.xml</module>
+		<module>springboot-mustache/pom.xml</module>
+		<module>springboot-mustache-jpa-crud/pom.xml</module>
+		<module>springboot-mybatis-crud/pom.xml</module>
+		<module>springboot-refresh-token-jwt/pom.xml</module>
+		<module>springboot-rest/pom.xml</module>
+		<module>springboot-rest-postgresql-crud/pom.xml</module>
+		<module>springboot-rest-mysql-crud/pom.xml</module>
+		<module>springboot-rest-xml-crud/pom.xml</module>
+		<module>springboot-hystrix/spring-rest-hystrix-consumer/pom.xml</module>
+                <module>springboot-hystrix/spring-rest-hystrix-producer/pom.xml</module>
+                <module>springboot-restemplate/springboot-rest-consumer/pom.xml</module>
+                <module>springboot-restemplate/springboot-rest-producer/pom.xml</module>
+		<module>springboot-scheduled-task/pom.xml</module>
+		<module>springboot-security-jwt-auth-mongodb-master/pom.xml</module> 
+		<module>springboot-security-thymeleaf-rdbms-registration-login/pom.xml</module>
+		<module>springboot-send-email/pom.xml</module>
+		<module>springboot-ssl/pom.xml</module>
+		<module>springboot-swagger/pom.xml</module>
+		<module>springboot-twillio/pom.xml</module>
+		<module>springboot-vaadin/pom.xml</module>
+		<module>springboot-videostream/pom.xml</module>
+
+<!--            <module>springboot-data-jdbc-postgresql-crud/pom.xml</module> -->
+
+	</modules>
+
+</project>
+
