@@ -2,7 +2,7 @@
 
 ###How to run the application in your local machine?
 
-####Step 1: Clone or download the code.  Use the command `git clone [this repo name]
+####Step 1: Clone or download the code.  Use the command `git clone [this repo name]`
 
 ####Step 2: Follow the configuration steps for MongoDb, MySqlDb, and PostgressDb.  Other configuration steps will be needed for other SpringBoot in the future. 
 
