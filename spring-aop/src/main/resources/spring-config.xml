@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    
+<aop:aspectj-autoproxy />
+<aop:config>
+	<aop:aspect ref="userXmlConfigAspect" id="userXmlConfigAspectID" order="1">
+		<aop:pointcut expression="execution(* com.ahlquist.commio.model.User.getFirstName())" id="getNamePointcut"/>
+		<aop:around method="userAroundAdvice" pointcut-ref="getNamePointcut" arg-names="proceedingJoinPoint"/>
+	</aop:aspect>
+</aop:config>
+
+<bean name="user" class="com.ahlquist.commio.model.User">
+	<property name="firstName" value="Neo"></property>
+	<property name="lastName" value="Anderson"></property>
+</bean>
+
+<bean name="userService" class="com.ahlquist.commio.service.UserService">
+	<property name="user" ref="user"></property>
+</bean>
+<bean name="userXmlConfigAspect"  class="com.ahlquist.commio.aop.UserXmlConfigAspect" />
+<bean name="userAspect"           class="com.ahlquist.commio.aop.UserAspect" />
+<bean name="userAspectPointcut"   class="com.ahlquist.commio.aop.UserAspectPointcut" />
+<bean name="userAspectJoinPoint"  class="com.ahlquist.commio.aop.UserAspectJoinPoint" />
+<bean name="userAfterAspect"      class="com.ahlquist.commio.aop.UserAfterAspect" />
+<bean name="userAroundAspect"     class="com.ahlquist.commio.aop.UserAroundAspect" />
+<bean name="userAnnotationAspect" class="com.ahlquist.commio.aop.UserAnnotationAspect" />
+
+</beans>
