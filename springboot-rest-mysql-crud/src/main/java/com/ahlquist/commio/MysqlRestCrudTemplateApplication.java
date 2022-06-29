@@ -10,5 +10,5 @@ public class MysqlRestCrudTemplateApplication {
 		SpringApplication.
 		   run(MysqlRestCrudTemplateApplication.class, args);
 	}
-
+	
 }
