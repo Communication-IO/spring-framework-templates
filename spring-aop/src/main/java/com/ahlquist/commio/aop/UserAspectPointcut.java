@@ -8,7 +8,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class UserAspectPointcut {
 
 	@Before("getNamePointcut()")
-	@Pointcut("getNamePointcut()")
+	//@Pointcut("getNamePointcut()")
 	public void loggingAdvice() {
 		System.out.println("Executing loggingAdvice on getName()");
 	}
@@ -23,7 +23,7 @@ public class UserAspectPointcut {
 	}
 
 	@Before("allMethodsPointcut()")
-	@Pointcut("allMethodsPointcut()")
+	//@Pointcut("allMethodsPointcut()")
 	public void allServiceMethodsAdvice() {
 		System.out.println("Before executing service method");
 	}
