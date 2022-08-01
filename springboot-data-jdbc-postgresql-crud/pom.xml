@@ -6,9 +6,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ahlquist.commio</groupId>
-	<artifactId>spring-boot-data-jdbc-postgresql-crud</artifactId>
+	<artifactId>springboot-data-jdbc-postgresql-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-data-jdbc-postgresql-crud</name>
+	<name>springboot-data-jdbc-postgresql-crud</name>
 	<url>www.communication.io</url>
 
 	<parent>

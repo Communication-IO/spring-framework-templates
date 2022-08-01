@@ -26,6 +26,7 @@
 		<module>springboot-webflux-simplecrud/pom.xml</module>
 		<module>springboot-custom-exception/pom.xml</module>
 		<module>springboot-data-jdbc-crud/pom.xml</module>
+		<module>springboot-data-jdbc-postgresql-crud/pom.xml</module>
 		<module>springboot-datable-pagination/pom.xml</module>
 		<module>springboot-embeddedserver-undertow/pom.xml</module>
 		<module>springboot-export-csv/pom.xml</module>
