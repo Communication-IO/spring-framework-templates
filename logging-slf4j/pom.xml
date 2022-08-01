@@ -3,9 +3,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ahlquist.commio</groupId>
-	<artifactId>spring-boot-slf4j</artifactId>
+	<artifactId>springboot-slf4j</artifactId>
 	<packaging>jar</packaging>
-	<name>Spring Boot SLF4j</name>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<parent>
