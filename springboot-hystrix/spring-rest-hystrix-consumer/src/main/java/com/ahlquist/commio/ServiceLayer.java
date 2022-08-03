@@ -18,6 +18,7 @@ public class ServiceLayer {
 		return result;
 	}
 
+	@SuppressWarnings("unused")
 	private String fallbackmethod() {
 
 		return "Service failed";
