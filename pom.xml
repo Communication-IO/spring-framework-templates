@@ -51,6 +51,7 @@
 		<module>springboot-mustache/pom.xml</module>
 		<module>springboot-mustache-jpa-crud/pom.xml</module>
 		<module>springboot-mybatis-crud/pom.xml</module>
+		<module>springboot-rabbitmq/pom.xml</module>
 		<module>springboot-refresh-token-jwt/pom.xml</module>
 		<module>springboot-rest/pom.xml</module>
 		<module>springboot-rest-postgresql-crud/pom.xml</module>
