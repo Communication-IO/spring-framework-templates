@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: commio-loggers
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:9092
+
+commio:
+  topic-name: funstuff-topic
+  messages-per-request: 10
