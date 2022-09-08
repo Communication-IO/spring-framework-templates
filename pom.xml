@@ -46,6 +46,7 @@
 		<module>springboot-jpa-hikaricp/pom.xml</module>
 		<module>springboot-jpa-tomcatcp/pom.xml</module>
 		<module>springboot-json-properties/pom.xml</module>
+		<module>springboot-kafka/pom.xml</module>
 		<module>springboot-keycloak/pom.xml</module>
 		<module>springboot-microsoft-word/pom.xml</module>
 		<module>springboot-mustache/pom.xml</module>
