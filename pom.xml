@@ -41,6 +41,7 @@
 		<module>springboot-java-record/pom.xml</module>
 		<module>springboot-jetty-embeddedserver/pom.xml</module>
 		<module>springboot-jpa-h2db/pom.xml</module>
+		<module>springboot-datasource-configuration/pom.xml</module>
 		<module>springboot-jpa-hibernate-many-to-many-mapping/pom.xml</module>
 		<module>springboot-jpa-hibernate-one-to-many-mapping/pom.xml</module>
 		<module>springboot-jpa-hibernate-one-to-one-mapping/pom.xml</module>
