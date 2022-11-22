@@ -16,6 +16,11 @@ public class DataSourceConfig {
         dataSourceBuilder.url("jdbc:h2:mem:test");
         dataSourceBuilder.username("SA");
         dataSourceBuilder.password("");
+
         return (DataSource) dataSourceBuilder.build();
+    }
+    
+    public String getDriverClassName() {
+    	return null;
     }
 }
