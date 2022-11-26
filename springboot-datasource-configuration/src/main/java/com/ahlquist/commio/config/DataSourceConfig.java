@@ -8,19 +8,19 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class DataSourceConfig {
-    
-    @Bean
-    public DataSource getDataSource() {
-        DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
-        dataSourceBuilder.driverClassName("org.h2.Driver");
-        dataSourceBuilder.url("jdbc:h2:mem:test");
-        dataSourceBuilder.username("SA");
-        dataSourceBuilder.password("");
 
-        return (DataSource) dataSourceBuilder.build();
-    }
-    
-    public String getDriverClassName() {
-    	return null;
-    }
+	@Bean
+	public DataSource getDataSource() {
+		DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
+		dataSourceBuilder.driverClassName("com.mysql.cj.jdbc.Driver");
+		dataSourceBuilder.url("jdbc:mysql:127.0.0.1:3306/mvn_test");
+		dataSourceBuilder.username("testuser");
+		dataSourceBuilder.password("password");
+
+		return (DataSource) dataSourceBuilder.build();
+	}
+
+	public String getDriverClassName() {
+		return null;
+	}
 }

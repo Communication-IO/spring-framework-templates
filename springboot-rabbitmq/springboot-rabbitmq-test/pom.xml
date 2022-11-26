@@ -2,19 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<artifactId>springboot-rabbitmq-test</artifactId>
 	<groupId>com.ahlquist.commio</groupId>
-	<artifactId>springboot_rabbitmq-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<properties>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
-		<junit.version>4.12</junit.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
-
 	<dependencies>
+
+		<dependency>
+			<groupId>com.ahlquist.commio</groupId>
+			<artifactId>springboot-rabbitmq-consumer</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ahlquist.commio</groupId>
+			<artifactId>springboot-rabbitmq-producer</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.javassist</groupId>
@@ -28,11 +32,16 @@
 			<version>6.0.0</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.10</version>
 		</dependency>
 
 		<dependency>
@@ -47,11 +56,6 @@
 			<version>2.9.3</version>
 		</dependency>
 
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
-		</dependency>
 
 	</dependencies>
 
@@ -62,25 +66,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
 			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.19</version>
-				<!-- configuration> <parallel>methods</parallel> <threadCount>10</threadCount> 
-                    </configuration -->
-				<configuration>
-					<forkCount>3</forkCount>
-					<reuseForks>true</reuseForks>
-					<argLine>-Xmx1024m</argLine>
-					<!--     <systemPropertyVariables>
-                        <databaseSchema>MY_TEST_SCHEMA_${surefire.forkNumber}</databaseSchema>
-                    </systemPropertyVariables>
-                    <workingDirectory>FORK_DIRECTORY_${surefire.forkNumber}</workingDirectory>
-              -->
-				</configuration>
-			</plugin>
-
 
 		</plugins>
 	</build>

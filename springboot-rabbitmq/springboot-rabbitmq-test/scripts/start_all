@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Starting Consumer"
+
+Open -a Terminal `./start_consumer`
+
+echo "Starting Producer"
+Open -a Terminal `./start_producer`
+#  open -a Terminal "`./post`"
+

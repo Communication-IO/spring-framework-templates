@@ -22,6 +22,7 @@ public class ProducerController {
     @Value("${app.message}")
     private String message;
 
+
     @PostMapping(value = "user")
     public String publishUserDetails(@RequestBody User user) {
         rabbitMqSender.send(user);
