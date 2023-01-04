@@ -1,0 +1,6 @@
+insert into USER (id, username, password, token) values 
+    ('123e4567-e89b-12d3-a456-426614172000', 'douglas', 'password', 'some_value');
+insert into USER (id, username, password, token) values 
+    ('12344567-e89b-12d3-a456-526614174000', 'rein', 'password', 'some__other_value');
+insert into USER (id, username, password, token) values 
+    ('12554567-e89b-12d3-a456-526614178000', 'sharon', 'password', 'some__other_value');

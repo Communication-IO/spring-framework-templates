@@ -1,0 +1,4 @@
+
+CREATE TABLE IF NOT EXISTS`uniqueid` (
+   `uniqueid` VARCHAR(36) NOT NULL UNIQUE
+ );
