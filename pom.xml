@@ -14,18 +14,18 @@
 		<module>junit5-mockito/pom.xml</module>
 		<module>logging-slf4j/pom.xml</module>
 		<module>spring-api-gateway/pom.xml</module>
-		<module>spring-api-gateway-dynamic/pom.xml</module>
+	<!--	<module>spring-api-gateway-dynamic/pom.xml</module> -->
 		<module>springboot-cloud-sleuth-zipkin/pom.xml</module>
 		<module>springboot-groovy-jpa-crud/pom.xml</module>
 		<module>springboot-oauth2-github/pom.xml</module>
                 <module>springboot-oauth2-google/pom.xml</module>
 		<module>springboot-oauth2-okta/pom.xml</module>
 		<module>springboot-quartz-joblistener/pom.xml</module>
-		<module>springboot-webflux-filedownload/pom.xml</module>
+		<module>springboot-webflux-filedownload/pom.xml</module> 
 		<module>springboot-webflux-fileupload-download/pom.xml</module>
- 		<module>springboot-webflux-video-streaming/pom.xml</module>  	
+ 	<!--	<module>springboot-webflux-video-streaming/pom.xml</module> -->  	
 		<module>springboot-webflux-reactivemonogo/pom.xml</module>
-		<module>springboot-webflux-simplecrud/pom.xml</module>
+	<!--	<module>springboot-webflux-simplecrud/pom.xml</module> -->
 		<module>springboot-custom-exception/pom.xml</module>
 		<module>springboot-data-jdbc-crud/pom.xml</module>
 		<module>springboot-data-jdbc-postgresql-crud/pom.xml</module>
@@ -50,7 +50,7 @@
 		<module>springboot-jpa-tomcatcp/pom.xml</module>
 		<module>springboot-json-properties/pom.xml</module>
 		<module>springboot-kafka/pom.xml</module>
-		<module>springboot-keycloak/pom.xml</module>
+	<!--	<module>springboot-keycloak/pom.xml</module> -->
 		<module>springboot-microsoft-word/pom.xml</module>
 		<module>springboot-mustache/pom.xml</module>
 		<module>springboot-mustache-jpa-crud/pom.xml</module>
